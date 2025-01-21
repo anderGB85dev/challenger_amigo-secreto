@@ -1,0 +1,260 @@
+
+
+  .box1{
+   background-image: url(/PROJETO-HTML-JS/challenger-alura/folha-de-trevo.png);
+   background-repeat: no-repeat;
+   background-position: center;
+    border: 1px solid #255000;
+    filter: drop-shadow(0px 0px 30px #255000);
+    height: 871px;
+    left: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    z-index: 1;
+  }
+
+  .box1 {
+    background-color:gainsboro;
+    border: 1px solid #255000;
+    filter: drop-shadow(0px 0px 30px #255000);
+    height: 871px;
+    left: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    z-index: 1;
+  }
+
+  .corpo{
+    background-color: #255000;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: start;
+    padding: 100px;
+  }
+
+  .container_amigos{
+    align-items: center;
+  border: 1px solid #255000;
+  border-radius: 8px;
+  color: #fff;
+  display: flex;
+  font-size: 21px;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 160%;
+  margin-top: 1rem;
+  padding: 24px;
+  width: 453px;
+  }
+
+  .container_amigos > p {
+    color: #255000
+    
+    
+  }
+
+  .titulo_amigos {
+    color:#255000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 110%;
+  }
+
+
+
+  .resultado {
+    color: #255000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 110%;
+    margin-bottom: 16px;
+  }
+
+  .form_botao{
+    
+        position:absolute;
+        top: 90%;
+        left:55%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .botao_primario{
+        display:inline;
+        width: 200px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        font-family: sans-serif;
+        text-decoration: none;
+        color: #255000;
+        border: 2px solid #333;
+        letter-spacing: 2px;
+        text-align: center;
+        position: relative;
+        transition: all .35s;
+      }
+      
+      .botao_primario span{
+        position: relative;
+        z-index: 2;
+      }
+      
+      .botao_primario:after{
+        position:absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 100%;
+        background: #255000;
+        transition: all .35s;
+      }
+      
+      .botao_primario:hover{
+        color:#fff;
+      }
+      
+      .botao_primario:hover:after{
+        width: 100%;
+      }
+  
+  .botao_secundario{
+    display:inline;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #255000;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  .botao_secundario span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  .botao_secundario:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #255000;
+    transition: all .35s;
+  }
+  
+  .botao_secundario:hover{
+    color:#fff;
+  }
+  
+  .botao_secundario:hover:after{
+    width: 100%;
+  }
+
+ .form_link {
+    color:#255000;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 110%;
+    text-align: center;
+    text-decoration-line: underline;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    font-family: Inter;
+    font-style: normal;
+  }
+  
+   .form_input {
+    align-items: center;
+    background-color: transparent;
+    border: 1px solid #255000;
+    border-radius: 8px;
+    color: #255000;
+    display: flex;
+    font-size: 21px;
+    font-weight: 400;
+    height: 56px;
+    margin-bottom: 32px;
+    outline: none;
+    padding: 8px 16px;
+    width: 517px;
+  }
+  
+  .form_input::placeholder {
+    color: #255000;
+    font-size: 21px;
+  }
+  
+  .form_label {
+    color: #255000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 110%;
+    margin-bottom: 16px;
+  }
+
+  .titulo_amigos {
+    align-items: start;
+    display: flex;
+    font-family: Inter;
+    font-style: normal;
+    gap: 48px;
+  }
+
+  .container_sorteio {
+    position: absolute;
+    right: 0;
+    top: 76px;
+    z-index: 2;
+    pointer-events: none;
+  }
+  
+  .container_amigos {
+    color: #fff;
+    font-size: 21px;
+    font-style: italic;
+    font-weight: 700;
+    height: 199px;
+    line-height: 160%;
+    margin-top: 1rem;
+  }
+  
+  
+  .titulo_amigo {
+    color: #fff;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 88px;
+    font-style: normal;
+  
+    
+  }
+
+  .container_sorteio {
+    color: #00f4bf;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 110%;
+  }
+  
+  
+  .titulo_amigo > span {
+    color: #255000;
+  }
