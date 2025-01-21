@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch&family=Inter&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css
+"
+      rel="stylesheet"
+    />
+    <link
+      href="
+https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css
+"
+      rel="stylesheet"
+    />
+    
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="estilo.css" />
+<body>
+    <main class="corpo">
+     <div class="box1">
+        <section>
+
+            <h1 class="titulo_amigo">Amigo <span>Secreto</span></h1>
+            <form class="form">
+                <label class="form_label">Digite o nome do seu amigo (a)</label>
+                <input
+                id="nome-amigo"
+                class="form_input"
+                type="text"
+                placeholder="nome do amigo">
+
+                <div class="form_botao">
+                    <button 
+                    onclick="adicionar()"
+                    type="button"
+                    class="botao_primario">Adicionar</button>
+
+                    <button
+                    onclick="Sortear"
+                    type="button"
+                    class="botao_secundario">Sortear</button>
+                    <a onclick="Reiniciar()" href="#" class="form_link">Reiniciar</a>
+                </div>
+            </form>
+        </section>
+
+        <section class="resultado">
+            <article>
+                <p class="titulo_amigos">Amigos Incluídos</p>
+
+                <div class="container_amigos">
+                    <p id="lista_amigos"></p>
+                </div>
+            </article>
+
+            <article>
+                <p class="sorteio">sorteio</p>
+                <div class="conteiner_sorteio">
+                    <p id="lista_sorteio"></p>
+                </div>
+            </article>
+        </section>
+                
+        </div>
+
+        </div>
+    </main>
+
+     </div>
+        
+    </main>
+    <script src="/PROJETO-HTML-JS/challenger-alura/app.js"></script>
+</body>
+</html>
